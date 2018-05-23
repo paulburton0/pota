@@ -1,0 +1,31 @@
+{
+  "name": "pota-directory",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "bootstrap": "^3.3.7",
+    "cheerio": "^1.0.0-rc.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~3.1.0",
+    "express": "^4.15.5",
+    "jquery": "^3.2.1",
+    "jquery-ui-dist": "^1.12.1",
+    "mongodb": "^2.2.33",
+    "morgan": "~1.9.0",
+    "npm": "^5.4.2",
+    "pug": "~2.0.0-beta11",
+    "request": "^2.83.0",
+    "serve-favicon": "~2.4.2"
+  },
+  "main": "app.js",
+  "author": "Paul Burton",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jshint": "^2.9.5"
+  }
+}
